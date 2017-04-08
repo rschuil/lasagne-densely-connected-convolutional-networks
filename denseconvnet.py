@@ -1,3 +1,4 @@
+import math
 from lasagne.layers import InputLayer, Conv2DLayer, NonlinearityLayer, Pool2DLayer, MaxPool2DLayer, ScaleLayer, BiasLayer, ConcatLayer, DropoutLayer, GlobalPoolLayer, DenseLayer
 from lasagne.nonlinearities import rectify, softmax
 from lasagne.init import HeNormal
